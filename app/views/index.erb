@@ -1,7 +1,7 @@
 <div class="container">
   <ul class="sortable-list">
     <% @list.each do |item| %>
-      <li>[<%= item.position %>] <%= item.name %></li>
+      <li id='<%= item.id %>'>[<%= item.position %>] <%= item.name %></li>
     <% end %>
   </ul>
 </div>
@@ -10,7 +10,7 @@
   <form action="/" method="get">
     <input type="submit" value="Reset">
   </form>
-  <form action="/" method="post">
+  <form id="submit-new" action="/" method="post">
     <input type="submit" value="Save" >
   </form>
 </div>

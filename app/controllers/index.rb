@@ -3,3 +3,8 @@ get '/' do
 
   erb :index
 end
+
+post '/' do 
+  params.inspect
+  #Item.update_postition(params[:new_order])
+end
