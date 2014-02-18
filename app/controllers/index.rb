@@ -1,4 +1,5 @@
 get '/' do
-  # Look in app/views/index.erb
+  @list = Item.order(:position)
+
   erb :index
 end

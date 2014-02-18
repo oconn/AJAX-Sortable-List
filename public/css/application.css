@@ -1,0 +1,50 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+th {
+  text-align: left;
+}
+
+.sortable-list {
+  padding: 0;
+}
+
+.sortable-list li {
+  list-style: none;
+  border: 1px solid #999;
+  background-color: #30CDB8;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sortable-list li:hover {
+  cursor: pointer;
+  background-color: #259F8F;
+}
+
+#submit-buttons {
+  margin: 0 auto;
+  display: table;
+}
+
+#submit-buttons form {
+  display: inline;
+}
+
+#submit-buttons form:first-child{
+  padding-right: 1em;
+}
+
+#submit-buttons input[type='submit'] {
+  border-radius: 2em;
+  width: 6em;
+  background-color: #30CDB8;
+}
+
+#submit-buttons input[type='submit']:hover {
+  background-color: #259F8F;
+}
